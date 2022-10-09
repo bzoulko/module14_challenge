@@ -50,6 +50,18 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
+router.get('/dashboard', async (req, res) => {
+  if (req.session.loggedIn) {
+    res.redirect('/');
+    return;
+  }
+
+  res.render('/dashboard');
+});
+
+
+
+
 router.get('/signup', (req, res) => {
   if (req.session.loggedIn) {
     res.redirect('/');
