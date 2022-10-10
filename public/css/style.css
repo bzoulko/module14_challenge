@@ -1,4 +1,4 @@
-.hero {
+/* .hero {
 
 }
 
@@ -12,7 +12,7 @@
 
 .new-post-form {
 
-}
+} */
 
 /*
     Created:    09/23/2022 
@@ -163,6 +163,25 @@ section {
   margin-left: 5px;
   margin-bottom: 15px;
   padding: 12px;
+}
+
+.btn-post {
+  width: auto;
+  color: lightgrey;
+  padding: 8px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: .3rem;
+  border-width: 0px;
+  border-color: var(--title-color);
+  background-color: var(--title-color);
+  text-decoration: none;
+}
+
+.btn-post:hover {
+  color: var(--secondary);
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .navbar a {

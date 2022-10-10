@@ -56,7 +56,7 @@ router.get('/dashboard', async (req, res) => {
     return;
   }
 
-  res.render('/dashboard');
+  res.render('dashboard');
 });
 
 
